@@ -3,15 +3,24 @@ package com.christiancm.geniusestrela.utils
 import android.content.Context
 import androidx.core.content.ContextCompat
 import com.christiancm.geniusestrela.R
+import kotlinx.coroutines.delay
 
 class Utilitarios {
 
-    fun gerarNumeroAleatorio():Int{
-        val numero = (0..3).random()
-        return numero
-    }
+
 
     companion object {
+
+        var ligaDesliga = true
+
+        val iniciar = "Start"
+        val parar = "Stop"
+
+        suspend fun gerarNumeroAleatorio():Int{
+            delay(1300L)
+            val numero = (0..3).random()
+            return numero
+        }
 
         fun whiteRed(context: Context): Int {
             return ContextCompat.getColor(context, R.color.white_red)
