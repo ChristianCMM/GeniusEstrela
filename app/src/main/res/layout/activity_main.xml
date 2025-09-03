@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:gravity="center"
+        android:text="@string/NomeDoJogo"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button_start"
+        android:text="@string/BotaoComecar"
+        android:layout_width="96dp"
+        android:layout_height="48dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_top"
+        android:layout_width="match_parent"
+        android:layout_height="144dp">
+
+        <View
+            android:id="@+id/view_green"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green" />
+
+        <View
+            android:id="@+id/view_red"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="144dp">
+
+        <View
+            android:id="@+id/view_yellow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/yellow" />
+
+        <View
+            android:id="@+id/view_blue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue" />
+
+    </LinearLayout>
+</LinearLayout>
