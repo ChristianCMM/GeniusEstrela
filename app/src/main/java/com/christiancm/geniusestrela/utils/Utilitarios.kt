@@ -11,7 +11,7 @@ class Utilitarios {
 
     companion object {
 
-        var ligaDesliga = true
+        var ligaDesliga = false
 
         val iniciar = "Start"
         val parar = "Stop"
