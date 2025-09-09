@@ -2,4 +2,7 @@
     <string name="app_name">Genius Estrela</string>
     <string name="NomeDoJogo">Genius Estrela</string>
     <string name="BotaoComecar">Start</string>
+    <string name="Checkbox_Lvl_1">Nivel 1</string>
+    <string name="Checkbox_Lvl_2">Nivel 2</string>
+    <string name="Checkbox_Lvl_3">Nivel 3</string>
 </resources>
